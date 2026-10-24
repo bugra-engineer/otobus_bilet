@@ -1,0 +1,12 @@
+body{margin:0;font:15px system-ui,sans-serif;background:#14213d;color:#f1f1f1;display:flex;min-height:100vh;flex-wrap:wrap}
+aside{width:270px;background:#0b1428;padding:18px}
+h1{color:#fca311;font-size:21px;margin:0 0 14px}
+.trip{padding:10px 12px;border:1px solid #2b3a63;border-radius:8px;margin-bottom:8px;cursor:pointer}
+.trip.on{border-color:#fca311;background:#1d2d55}.trip small{color:#9fb0d8}
+main{flex:1;padding:22px;min-width:300px}
+.bus{display:grid;grid-template-columns:repeat(4,46px);gap:7px;background:#1d2d55;padding:16px 22px;border-radius:30px 30px 10px 10px;width:max-content;margin:10px 0}
+.s{height:40px;border:0;border-radius:7px;background:#e5e5e5;cursor:pointer;font-weight:600}.s.d{background:#e63946;color:#fff;cursor:not-allowed}.s.x{background:#fca311}.g{visibility:hidden}
+input{padding:9px;border-radius:7px;border:0;margin-right:6px}
+button.b{background:#fca311;border:0;padding:9px 16px;border-radius:7px;font-weight:700;cursor:pointer}
+.t{display:flex;justify-content:space-between;align-items:center;background:#e5e5e5;color:#14213d;border-left:8px solid #fca311;border-radius:6px;padding:10px 14px;margin-top:8px}
+.t a{color:#e63946;cursor:pointer}
